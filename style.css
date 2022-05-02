@@ -104,7 +104,7 @@ header{
 
 .firstview{
           padding:100px 0 28px 0;
-          background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+          background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
           background-size: cover;
           background-position: center;
 }
@@ -223,13 +223,6 @@ h1 {
 元のサイトでボタンにフレックスを適用するメリットがつかめていない
 また、検証でヘッダーのボタンのフレックスを適用しなくすると高さがなくなる理由がわからない
 模写ではheightに合わせてinlone-block,line-hightを設定することでボタン全体をリンクとして押せるようにしているが問題ないか
-
-
-header absoluteにするとfloatがなくなったように見えるのは
-親要素の幅がなくなったから？
-
-
-marginを子要素に入れる
 
 
 */
