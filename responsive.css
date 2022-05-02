@@ -1,0 +1,111 @@
+@media (max-width:1080px) {
+  header{
+    position: static;
+  }
+  .menu-btn{
+    display: block;
+  }
+  
+  .header-list ul{
+    flex-direction:column;
+    overflow-y: scroll;
+    position: fixed;
+    top: 60px;
+    left: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    box-sizing: border-box;
+    
+    
+    /*transition: transform .5s;
+    z-index: 99;
+    background-color: rgba(0,0,0,.8);
+    -webkit-overflow-scrolling: touch;
+    height: 100%;*/
+  }
+/*
+  .menu-btn{
+    display: block;
+  }
+  .header-link{
+    margin-right: 0;
+    color: #fff;
+  }
+  .header-link p:firstchild{
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #fff;
+  }
+  .header-link p:lastchild{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #f79214;
+    letter-spacing: 2px;
+  }
+  .header-btn{
+    font-size: 16px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    width: 250px;
+  }
+*/
+}
+@media (max-width:767px){
+  .firstview{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .container{
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .firstview-content{
+    margin-top:50vw;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .slogan{
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .firstview-img{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+  .reqCounseling{
+    font-size: 14px;
+    width: 100% !important;
+  }
+  .reqDocument{
+    display: none;
+  }
+  .about{
+    flex-direction: column;
+  }
+  .intro{
+    width: 100%;
+  }
+}
+
+/*
+
+背景画像に関して
+
+元サイトでは
+back-groundの非表示、imgの表示、次の要素のmargin-top: -45vw;
+
+模写では
+back-groundの変更、リピートの取り消し、次の要素のmargin-top: 50vw;
+
+で行いました
+確かに前者の方がサイトの幅を狭めた時にうまく次要素の文字が余白を作らないように見えるのですが
+特にスマホ幅において、back-groundでなくimgで背景を入れた方がいい理由はありますか
+
+
+*/
